@@ -1,0 +1,83 @@
+1) In the following code, the P2 is Integer Pointer or Integer?
+
+typedef int *ptr;
+
+ptr p1, p2;
+
+
+
+// O/P : Integer pointer that hold the address of oter variable
+
+
+
+2)  In the following code what is 'P'?
+
+typedef char *charp;
+
+const charp P;
+
+
+
+// O/P : P is a constant of char
+
+
+
+3) What is x in the following program?
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    typedef char (*(*arrfptr[3])())[10];
+
+    arrfptr x;
+
+    return 0;
+
+}
+
+
+
+// O/P : x is array of 3 function pointer
+
+
+
+4) What is apfArithmatics in the below statement?
+
+typedef int (*apfArithmatics[3])(int,int); 
+
+
+
+// O/P : x is array of 3 function pointer
+
+
+
+5) What is pf in the below statement?
+
+typedef int (*pf)(int);
+
+
+
+// O/P : pf is function pointer(function name)
+
+
+
+6) What do the following declarations mean?
+
+typedef char *pc;//pointer to char
+
+typedef pc fpc();//function return pointer to char
+
+typedef fpc *pfpc;//pointer to next decleration
+
+typedef pfpc fpfpc();//function return char
+
+typedef fpfpc *pfpfpc;//pointer to fpfpc
+
+pfpfpc a[N];//array of pfpfpc
+
+
+
+
